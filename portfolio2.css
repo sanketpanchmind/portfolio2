@@ -1,0 +1,231 @@
+html,
+body{
+    font-family: "Lora", serif;
+}
+
+.navbar .navbar-brand h2{
+    font-family: "Lora", serif;
+    color: #fff;
+}
+.navbar{
+    background-color: #00ABC9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 25px;
+    z-index: 89999999 !important;
+}
+
+.navbar ul li{
+    margin: 0 15px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover{
+    color: #ffff;
+}
+.navbar ul li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 0%;
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+
+}
+
+.navbar ul li:hover::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+/* navbar end */
+
+.form-container .form-label{
+    font-size: 0.85rem;
+}
+.form-container .form-data{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+#main-content{
+    margin-top: 60px;
+}
+.carousel .carousel-inner .first,
+.carousel .carousel-inner .second,
+.carousel .carousel-inner .third{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.carousel .carousel-inner .first{
+    background-image: url('./assets/slider-01.jpg');
+}
+.carousel .carousel-inner .second{
+    background-image: url('./assets/slider-02.jpg');
+}
+.carousel .carousel-inner .third{
+    background-image: url('./assets/slider-03.jpg');
+}
+
+.carousel .carousel-inner h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.carousel .carousel-inner p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.text-main{
+    color: #00ABC9;
+}
+
+
+section{
+    padding: 100px 0;
+}
+/* about me */
+.aboutme{
+    background-color: #F8F9FA;
+}
+.aboutme .card.card-body span{
+    border-radius: 50%;
+    background-color: #00ABC9;
+}
+.aboutme .card.card-body span img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 9px;
+}
+.aboutme .img1{
+    width: 250px;
+    position: absolute;
+    left: 20%;
+}
+.aboutme .img2{
+    position: absolute;
+    right: 70px;
+    bottom: -340px;
+    width: 230px;
+}
+.aboutme p{
+    line-height: 1.7 !important;
+}
+/* end */
+
+/* skills */
+.skills{
+    background-image: url('http://themelooks.net/demo/cvit/wordpress/wp-content/uploads/2018/01/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.skills_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.skill_details_overlay_text{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    color: #fff;
+}
+
+.skills .skill_details_overlay_text .bar-bg-color{
+    background-color: #00ABC9;
+}
+.skills .skill_details_overlay_text .progress{
+    height: 5px;
+    margin: 18px 0;
+}
+
+
+.skills .carousel-container{
+    position: relative;
+    width: 200px;
+    perspective: 900px;
+}
+
+.skills .carousel-container .carousel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 10s infinite forwards linear;
+}
+.carousel_face{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 30px;
+    right: 10px;
+    background-size: cover;
+    display: flex;
+}
+.carousel_face:nth-child(1){
+    background-image: url('./assets/icons8-html-5-144.png');
+    transform: rotateY(-280deg) translateZ(200px);
+}
+.carousel_face:nth-child(2){
+    background-image: url('./assets/icons8-css-144.png'); 
+    transform: rotateY(-210deg) translateZ(250px);
+}
+.carousel_face:nth-child(3){
+    background-image: url('./assets/icons8-javascript-144.png'); 
+    transform: rotateY(-130deg) translateZ(200px);
+}
+.carousel_face:nth-child(4){
+    background-image: url('./assets/icons8-bootstrap-144.png'); 
+    transform: rotateY(-60deg) translateZ(200px);
+}
+.carousel_face:nth-child(5){
+    background-image: url('./assets/icons8-figma-144.png'); 
+    transform: rotateY(10deg) translateZ(200px);
+}
+@keyframes rotate360{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(-360deg);
+    }
+}
+
+
+.footer{
+    background-image: url('./assets/footer-bg-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+}
+.footer .title{
+    padding-bottom: 25px;
+}
