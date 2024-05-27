@@ -2,7 +2,9 @@ html,
 body{
     font-family: "Lora", serif;
 }
-
+.navbar img{
+    width: 220px;
+}
 .navbar .navbar-brand h2{
     font-family: "Lora", serif;
     color: #fff;
