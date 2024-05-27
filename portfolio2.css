@@ -3,7 +3,7 @@ body{
     font-family: "Lora", serif;
 }
 .navbar img{
-    width: 220px;
+    width: 240px;
 }
 .navbar .navbar-brand h2{
     font-family: "Lora", serif;
@@ -14,7 +14,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 10px 25px;
+    padding: 5px 25px;
     z-index: 89999999 !important;
 }
 
