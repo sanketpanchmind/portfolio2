@@ -86,6 +86,17 @@ body {
     align-items: center;
     text-align: center;
     height: 100vh;
+    position: relative;
+}
+.intro_text{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+.name{
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 .text-main {
