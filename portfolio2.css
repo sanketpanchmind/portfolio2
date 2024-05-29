@@ -97,10 +97,15 @@ body {
 .name{
     font-size: 4rem;
     font-weight: bold;
+    /* color: #7678f6; */
 }
-
+p{
+    font-weight: 500;
+    font-size: 1rem;
+}
 .text-main {
     color: #00ABC9;
+    /* color: #7678f6; */
 }
 
 
@@ -112,7 +117,9 @@ section {
 .aboutme {
     background-color: #F8F9FA;
 }
-
+.aboutme p span{
+    font-size: 1.3rem;
+}
 .aboutme .card.card-body span {
     border-radius: 50%;
     background-color: #00ABC9;
@@ -126,16 +133,16 @@ section {
 }
 
 .aboutme .img1 {
-    width: 250px;
+    width: 220px;
     position: absolute;
     left: 20%;
 }
 
 .aboutme .img2 {
     position: absolute;
-    right: 70px;
-    bottom: -340px;
-    width: 230px;
+    right: 100px;
+    bottom: -310px;
+    width: 220px;
 }
 
 .aboutme p {
@@ -250,7 +257,41 @@ section {
     padding: 100px 0;
     color: #fff;
 }
-
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.footer a:hover{
+    color: #00ABC9;
+    transition: 0.3s ease-in-out;
+}
 .footer .title {
     padding-bottom: 25px;
+}
+
+
+@media only screen and (max-width: 479px){
+    #main-content {
+        height: 80vh;
+        position: relative;
+    }
+    .name {
+        font-size: 2rem;
+        font-weight: bold;
+        /* color: #7678f6; */
+    }
+    p {
+        font-weight: 500;
+        font-size: 0.85rem;
+    }
+
+    .aboutme .img2{
+        display: none;
+    }
+    .aboutme .img1 {
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
 }
