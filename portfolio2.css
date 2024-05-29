@@ -294,4 +294,22 @@ section {
         left: 0;
         width: 100%;
     }
+
+    .skills {
+        background-image: url('http://themelooks.net/demo/cvit/wordpress/wp-content/uploads/2018/01/bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 140vh;
+        width: 100%;
+        position: relative;
+    }
+    .skills .carousel-container .carousel {
+        position: absolute;
+        top: -50px;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        animation: rotate360 10s infinite forwards linear;
+    }
 }
