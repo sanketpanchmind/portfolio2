@@ -31,6 +31,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
 
 
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Document</title>
 </head>
 
@@ -69,14 +72,15 @@
         <div class="overlay"></div>
         <div class="banner_text align-items-center  w-100">
             <div class="d-flex flex-column intro_text">
-                <div class="name">Sanket Panchmind</div>
-                <h3 class="text-main text-capitalize fw-bold">web designer</h3>
+                <div class="name" data-aos="fade-up" data-aos-duration="500">Sanket Panchmind</div>
+                <h3 class="text-main text-capitalize fw-bold" data-aos="fade-up" data-aos-duration="1000">web designer
+                </h3>
                 <div class="text-center">
-                    <p>
+                    <p data-aos="fade-up" data-aos-duration="1600">
                         I am a professional UX Designer and creating modern and
                         responsive designs
                     </p>
-                    <p>for Web and Mobile. Let us work together.</p>
+                    <p data-aos="fade-up" data-aos-duration="3000">for Web and Mobile. Let us work together.</p>
                 </div>
             </div>
         </div>
@@ -88,7 +92,7 @@
             </div>
             <div class="row gy-4 my-5">
                 <div class="col-sm-3">
-                    <div class="card card-body border-0 shadow">
+                    <div class="card card-body border-0" data-aos="fade-up" data-aos-duration="500">
                         <div class="d-flex flex-column align-items-center gap-4">
                             <span class="mx-auto">
                                 <img src="./assets/about-me.webp" alt="" class="img-fluid">
@@ -98,7 +102,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card card-body border-0 shadow">
+                    <div class="card card-body border-0 " data-aos="fade-up" data-aos-duration="1500">
                         <div class="d-flex flex-column align-items-center gap-4">
                             <span class="mx-auto">
                                 <img src="./assets/about-me.webp" alt="" class="img-fluid">
@@ -108,7 +112,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card card-body border-0 shadow">
+                    <div class="card card-body border-0" data-aos="fade-up" data-aos-duration="3000">
                         <div class="d-flex flex-column align-items-center gap-4">
                             <span class="mx-auto">
                                 <img src="./assets/about-me.webp" alt="" class="img-fluid">
@@ -118,7 +122,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card card-body border-0 shadow">
+                    <div class="card card-body border-0" data-aos="fade-up" data-aos-duration="3000">
                         <div class="d-flex flex-column align-items-center gap-4">
                             <span class="mx-auto">
                                 <img src="./assets/about-me.webp" alt="" class="img-fluid">
@@ -129,24 +133,26 @@
                 </div>
             </div>
             <!-- <section> -->
-            <div class="row gy-4 my-5 form-container">
-                <div class="col-sm-6 order-2 order-lg-0">
-                    <h6>Hi,</h6>
-                    <h4>I'm Sanket</h4>
-                    <p class="form-label">
-                        I'm a UI/UX Designer with <span class="text-main fw-bold">2</span> years of experience and
-                        passion for Web Design. I enjoy developing simple, clean and slick
-                        websites that provide real value to the end user. Collaborative team player with a keen eye for
-                        detail and commitment to staying up-to-date with the latest web technologies and design trends.
-                    </p>
-                </div>
-                <div class="col-sm-6">
-                    <div class="position-relative">
+            <div class="row gy-4 my-5 form-container align-items-center">
+                <div class="col-sm-6 text-center">
+                    <!-- <div class="position-relative">
                         <img src="https://preview.colorlib.com/theme/scenic/images/sq_img_6.jpg" alt=""
                             class="img-fluid img1">
                         <img src="https://preview.colorlib.com/theme/scenic/images/sq_img_10.jpg" alt=""
                             class="img-fluid img2">
-                    </div>
+                    </div> -->
+
+                    <img src="./assets/about-me-img-3.avif" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-6 order-2 order-lg-0">
+                    <h6>Hi,</h6>
+                    <h4 data-aos="fade-up" data-aos-duration="3000">I'm Sanket</h4>
+                    <p class="form-label" data-aos="fade-up" data-aos-duration="1500">
+                        I'm a Web Designer with <span class="text-main fw-bold">2</span> years of experience and
+                        passion for Web Design. I enjoy developing simple, clean and slick
+                        websites that provide real value to the end user. Collaborative team player with a keen eye for
+                        detail and commitment to staying up-to-date with the latest web technologies and design trends.
+                    </p>
                 </div>
             </div>
             <!-- </section> -->
@@ -162,7 +168,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column" data-aos="fade-up" data-aos-duration="250">
                             <div class="d-flex align-items-center justify-content-between">
                                 <span>UI/UX Design</span>
                                 <span>60%</span>
@@ -172,7 +178,7 @@
                                 <div class="progress-bar bar-bg-color" style="width: 60%"></div>
                             </div>
                         </div>
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column" data-aos="fade-up" data-aos-duration="500">
                             <div class="d-flex align-items-center justify-content-between">
                                 <span>HTML</span>
                                 <span>90%</span>
@@ -182,7 +188,7 @@
                                 <div class="progress-bar bar-bg-color" style="width: 90%"></div>
                             </div>
                         </div>
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column" data-aos="fade-up" data-aos-duration="750">
                             <div class="d-flex align-items-center justify-content-between">
                                 <span>CSS</span>
                                 <span>90%</span>
@@ -192,7 +198,7 @@
                                 <div class="progress-bar bar-bg-color" style="width: 90%"></div>
                             </div>
                         </div>
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column" data-aos="fade-up" data-aos-duration="1000">
                             <div class="d-flex align-items-center justify-content-between">
                                 <span>Bootstrap</span>
                                 <span>90%</span>
@@ -202,7 +208,7 @@
                                 <div class="progress-bar bar-bg-color" style="width: 90%"></div>
                             </div>
                         </div>
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column" data-aos="fade-up" data-aos-duration="1500">
                             <div class="d-flex align-items-center justify-content-between">
                                 <span>JS</span>
                                 <span>50%</span>
@@ -212,7 +218,7 @@
                                 <div class="progress-bar bar-bg-color" style="width: 50%"></div>
                             </div>
                         </div>
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column" data-aos="fade-up" data-aos-duration="3000">
                             <div class="d-flex align-items-center justify-content-between">
                                 <span>Responsive Design</span>
                                 <span>90%</span>
@@ -241,6 +247,9 @@
                                 <div class="carousel_face">
                                     <!-- <span>Try thousand times</span> -->
                                 </div>
+                                <div class="carousel_face">
+                                    <!-- <span>Try thousand times</span> -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -254,7 +263,7 @@
                 <div class="text-main">Timeline</div>
                 <h2>Work Experience</h2>
             </div>
-            <div class="row align-items-center text-center gy-3">
+            <div class="row align-items-center text-center gy-3" data-aos="fade-up" data-aos-duration="1500">
                 <div class="col-sm-4">
                     <div class="d-flex  justify-content-center gap-2">
                         <div class="form-data">January 2022 </div>
@@ -274,7 +283,7 @@
                 </div>
             </div>
             <hr>
-            <div class="row align-items-center text-center gy-3">
+            <div class="row align-items-center text-center gy-3" data-aos="fade-up" data-aos-duration="3000">
                 <div class="col-sm-4">
                     <div class="d-flex  justify-content-center gap-2">
                         <div class="form-data">April 2021</div>
@@ -303,8 +312,9 @@
                     <div class="d-flex flex-column">
                         <h2 class="title">Let's get in Touch</h2>
                         <p class="form-label">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic facilis officiis consequatur
-                            aut! Eos blanditiis ratione beatae tempora fugiat repellendus!
+                            I enjoy discussing new project and design ideas. Please share as much info, as possibe so we
+                            cxan get the most out of
+                            our first catch-up.
                         </p>
                     </div>
                 </div>
@@ -348,6 +358,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <!-- AOS Animation links -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
